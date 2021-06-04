@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.4 on win32)" generated="20210603 11:35:49.322" rpa="false" schemaversion="2">
+<suite id="s1" name="MyCalculatorLibrary" source="C:\Projetos\Robot\curso-avancado-Robot-Framework\MyCustomLibraries\MyCalculatorLibrary.robot">
+<test id="s1-t1" name="Retornar a diferença de dois valores">
+<kw name="Subtrair o valor &quot;1&quot; com o valor &quot;4&quot;" sourcename="Subtrair o valor &quot;${numero_1}&quot; com o valor &quot;${numero_2}&quot;">
+<kw name="Subtrair" library="MyCalculatorLibrary">
+<var>${result}</var>
+<arg>${numero_1}</arg>
+<arg>${numero_2}</arg>
+<msg timestamp="20210603 11:35:49.354" level="INFO">O valor da subtração é -3</msg>
+<msg timestamp="20210603 11:35:49.354" level="INFO">${result} = -3</msg>
+<status status="PASS" starttime="20210603 11:35:49.354" endtime="20210603 11:35:49.354"/>
+</kw>
+<status status="PASS" starttime="20210603 11:35:49.353" endtime="20210603 11:35:49.354"/>
+</kw>
+<status status="PASS" starttime="20210603 11:35:49.353" endtime="20210603 11:35:49.355"/>
+</test>
+<status status="PASS" starttime="20210603 11:35:49.323" endtime="20210603 11:35:49.356"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="MyCalculatorLibrary">MyCalculatorLibrary</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
