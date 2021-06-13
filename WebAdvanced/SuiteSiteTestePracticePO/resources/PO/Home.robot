@@ -11,6 +11,7 @@ ${HOME_TOPMENU}             xpath=//*[@id="block_top_menu"]/ul
 ${HOME_PRODUCT}             xpath=//*[@id="center_column"]//img[@alt="Faded Short Sleeve T-shirts"]
 ${HOME_BTN_ADDCART}         xpath=//*[@id="add_to_cart"]/button
 ${HOME_BTN_CHECKOUT}        xpath=//*[@id="layer_cart"]//a[@title="Proceed to checkout"]
+${HOME_BTN_SIGNIN}          xpath=//*[@id="header"]//*[@class="login"][contains(text(),"Sign in")]
 *** Keywords ***
 
 #### Ações
@@ -40,3 +41,6 @@ Adicionar o produto "${PRODUTO}" no carrinho
     Clicar no botão pesquisar
     Clicar no botão "Add to Cart" do produto
     Clicar no botão "Proceed to checkout"
+
+Clicar em "Sign in"
+    Click Element      ${HOME_BTN_SIGNIN}

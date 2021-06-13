@@ -17,7 +17,7 @@ Caso de Teste com PO 01: Remover Produtos do Carrinho
 ### EXERCÍCIO
 Caso de Teste com PO 02: Adicionar Cliente
     Home.Acessar a página home do site
-    Cadastro.Clicar em "Sign in"
+    home.Clicar em "Sign in"
     Cadastro.Informar um e-mail válido
     Cadastro.Clicar em "Create an account"
     Cadastro.Preencher os dados obrigatórios

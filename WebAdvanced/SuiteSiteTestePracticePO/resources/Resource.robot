@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Library    String
 
 *** Variables ***
-${BROWSER}      headlesschrome
+${BROWSER}      chrome
 ${URL}          http://automationpractice.com
 
 *** Keywords ***
@@ -13,3 +13,7 @@ Abrir navegador
 
 Fechar navegador
     Close Browser
+
+
+### Rodando testes headless (sem abrir webdriver)
+### robot -d ./results -v BROWSER:headlesschrome SuiteSiteTestePracticePO\tests\TestSitePractice.robot
